@@ -1,12 +1,12 @@
-# Boilerplate with React, Redux and Typescript
+# Boilerplate with React, Redux, and Typescript
 
-### Performance-optimzed with Webpack and React Lazy imports resulting in a Lighthouse score of 100 across all categories.
+### Performance optimization with Webpack and React Lazy imports resulting in a Lighthouse score of 100 across all categories.
 
 ## Description
 
 Boilerplate with a Todos app using custom hooks and redux toolkit, architecture inspired by [Mark Erikson](https://github.com/markerikson) and the [cra-template-redux-typescript](https://github.com/reduxjs/cra-template-redux-typescript) team.
 
-Built with React, Redux Typescript, Node, Express and Webpack
+Built with React, Redux, Reux Toolkit, Typescript, Node, Express and Webpack
 
 ## Deployed App
 
