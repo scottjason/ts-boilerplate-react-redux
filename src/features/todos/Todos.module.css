@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  display: flex;
+  top: 82px;
+  padding: 0;
+  color: rgba(225, 225, 225, 0.9);
+  width: 100%;
+  height: calc(100% - 82px);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  font-size: 1.7rem;
+  width: calc(33.33% - 25px);
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #172a46;
+  box-shadow: 0px 1px 1px #000;
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: calc(50% - 25px);
+  }
+}
+@media (max-width: 600px) {
+  .grid {
+    justify-content: center;
+  }
+  .card {
+    width: calc(100% - 25px);
+  }
+}

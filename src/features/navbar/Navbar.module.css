@@ -1,0 +1,46 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  color: #fff;
+  width: 100vw;
+  height: 85px;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  background-color: #09192f;
+  box-shadow: 0px 1px 10px #000;
+  z-index: 1;
+}
+
+.count {
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: rgba(225, 225, 225, 0.9);
+}
+
+.count > span {
+  margin-left: 5px;
+  color: #45ac9f;
+  cursor: pointer;
+}
+
+.iconWrap {
+  position: absolute;
+  display: flex;
+  top: 9px;
+  right: 0;
+  color: white;
+  width: 50px;
+  height: auto;
+}
+
+.icon {
+  color: #45ac9f;
+  width: 40px;
+  height: 40px;
+  margin-top: 1.25rem;
+  cursor: pointer;
+}

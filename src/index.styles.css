@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  background: #0a192f;
+  font-family: 'Open Sans', sans-serif;
+}
+p,
+a,
+h1,
+h2,
+button,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+}
