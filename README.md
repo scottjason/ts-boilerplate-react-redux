@@ -10,7 +10,7 @@ Built with React, Redux, Reux Toolkit, Typescript, Node, Express and Webpack
 
 ## Deployed App
 
-[Deployed on Railway, open app.](https://ts-boilerplate-react-redux-production.up.railway.app/)
+[Deployed on Netlify, open app.](https://ts-boilerplate-react-redux.netlify.app/)
 
 ## Installation
 
